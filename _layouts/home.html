@@ -20,7 +20,9 @@ layout: default
                 </a>
                 <div class="post-date"><i class="icon-calendar"></i>{{ post.date | date: date_format }}</div>
             </div>
-            {{ post.excerpt | markdownify | truncatewords: 30 }}
+            <div class="post" style="text-align: justify;">
+                {{ post.excerpt | markdownify | truncatewords: 30 }}
+            </div>
         </li>
         {% endfor %}
     </ul>
