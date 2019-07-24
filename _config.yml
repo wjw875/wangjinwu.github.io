@@ -1,9 +1,9 @@
 title: 向晓东
-description: 个人博客
+description: 天青色等烟雨，而我在等你。
 show_downloads: false
 
 baseurl: "/cayman-blog" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
-url: "https://wjw875.github.io" # change this to the base hostname & protocol for your site
+url: "https://lorepirri.github.io" # change this to the base hostname & protocol for your site
 
 
 google_analytics:
@@ -16,10 +16,10 @@ cayman-blog:
 # theme: leave it empty
 
 # social
-author: wjw875
+author: lorepirri
 image: /thumbnail-jumbo.png
-#twitter:
-#  username: wjw875
+twitter:
+  username: lorepirri
 
 plugins:
   - jekyll-target-blank
@@ -27,7 +27,7 @@ plugins:
 target-blank:
     rel: nofollow
 
-#header_page_refs: ['now', 'about', 'contact']
+header_page_refs: ['now', 'about', 'contact']
 
 theme: jekyll-theme-cayman-blog
 
