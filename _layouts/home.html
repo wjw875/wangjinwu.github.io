@@ -13,10 +13,11 @@ layout: default
         <li>
             {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
             <div class="post-meta">
-                <h2>
-                    <a class="post-link" href="{{ post.url | absolute_url }}" title="{{ post.title }}">{{ post.title |
-                        escape }}</a>
-                </h2>
+                <a class="post-link" href="{{ post.url | absolute_url }}">
+                    <h2 title="{{ post.title }}">
+                        {{ post.title | escape }}
+                    </h2>
+                </a>
                 <span class="post-meta">{{ post.date | date: date_format }}</span>
             </div>
             {{ post.excerpt | markdownify | truncatewords: 30 }}
