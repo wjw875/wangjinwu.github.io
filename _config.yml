@@ -33,3 +33,5 @@ theme: jekyll-theme-cayman-blog
 
 gems:
   - jekyll-feed
+gems:
+  - jekyll-seo-tag

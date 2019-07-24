@@ -6,4 +6,6 @@ gemspec
 
 gem "jekyll-theme-cayman-blog"
 
-#gem 'jekyll-feed'
+gem 'jekyll-feed'
+
+gem 'jekyll-seo-tag'
