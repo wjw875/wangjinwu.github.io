@@ -3,7 +3,7 @@ description: 天青色等烟雨，而我在等你。
 show_downloads: false
 
 baseurl: "/cayman-blog" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
-url: "https://lorepirri.github.io" # change this to the base hostname & protocol for your site
+url: "https://wjw875.github.io/wangjinwu.github.io" # change this to the base hostname & protocol for your site
 
 
 google_analytics:
@@ -16,10 +16,10 @@ cayman-blog:
 # theme: leave it empty
 
 # social
-author: lorepirri
+author: wjw875
 image: /thumbnail-jumbo.png
 twitter:
-  username: lorepirri
+  username: wjw875
 
 plugins:
   - jekyll-target-blank
