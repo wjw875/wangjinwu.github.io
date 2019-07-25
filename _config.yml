@@ -2,7 +2,7 @@ title: 向晓东
 description: 天青色等烟雨，而我在等你。
 show_downloads: false
 
-baseurl: "/wangjinwu.github.io/" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
+baseurl: "" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
 url: "https://wjw875.github.io" # change this to the base hostname & protocol for your site
 
 
