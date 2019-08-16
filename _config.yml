@@ -29,7 +29,8 @@ target-blank:
 
 header_page_refs: []
 
-theme: jekyll-theme-cayman-blog
+#jekyll-theme-cayman-blog
+theme: jekyll-theme-cayman
 
 gems:
   - jekyll-feed
