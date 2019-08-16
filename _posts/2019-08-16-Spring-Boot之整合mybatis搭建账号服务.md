@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Spring-Boot之整合mybatis搭建账号服务"
+title:  "Spring-Boot之整合MyBatis搭建账号服务"
 categories: Spring-Boot
 ---
 
-数据库是后台服务的基础，Spring-Boot框架支持多种类型的第三方开源持久层框架。本文以账号服务为示例，介绍了Spring-Boot整合mybatis的过程，并且通过 Postman对账号服务API接口进行了测试。
+MyBatis是一个基于Java的持久层框架，它支持定制化SQL、存储过程以及高级映射，MyBatis避免了几乎所有的JDBC代码和手动设置参数以及获取结果集，其可以对配置和原生Map使用简单的 XML 或注解，将接口和 Java 的 POJOs映射成数据库中的记录。本文以账号服务为示例，介绍了Spring-Boot整合MyBatis的过程，并且通过 Postman对账号服务API接口进行了测试。
 
 ## 一、添加依赖和配置
 
-在build.gradle文件中添加My SQL依赖和mybatis依赖，如下所示。
+在build.gradle文件中添加My SQL依赖和MyBatis依赖，如下所示。
 
 ```javascript
 dependencies {
@@ -24,7 +24,7 @@ dependencies {
 }
 ```
 
-在application.properties配置文件中添加My SQL配置和mybatis配置，其中数据库连接url、username以及password需要根据实际环境进行设置，如下所示。
+在application.properties配置文件中添加My SQL配置和MyBatis配置，其中数据库连接url、username以及password需要根据实际环境进行设置，如下所示。
 
 ```javascript
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
@@ -65,7 +65,7 @@ CREATE TABLE t_token(
 CREATE UNIQUE INDEX index_token ON t_token(token)
 ```
 
-## 三、整合mybatis  
+## 三、整合MyBatis  
 
 创建model类，主要是与数据库字段匹配，以账号信息的AccountDomain为示例。
 
@@ -169,7 +169,7 @@ public ResponseEntity list() {
 
 ## 四、接口测试  
 
-Spring-Boot整合mybatis搭建账号服务器过程基本完成，下面进行简单的测试，测试之前确保数据库表成功创建。
+Spring-Boot整合MyBatis搭建账号服务器过程基本完成，下面进行简单的测试，测试之前确保数据库表成功创建。
 
 ![image][databaseInfo]
 
