@@ -21,7 +21,7 @@ layout: default
                 <!--<div class="post-date">{{ post.date | date: date_format }}</div>-->
             </div>
             <div class="post" style="text-align: justify; margin-top: 1px">
-                {{ post.excerpt | markdownify | truncatewords: 10 }}
+                {{ post.excerpt | markdownify | slice: 10 }}
             </div>
         </li>
         <!--<hr style=" height:2px;border:none;border-top:2px dotted #185598;"/>-->
