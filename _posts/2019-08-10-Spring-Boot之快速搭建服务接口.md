@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spring-Boot之快速搭建服务接口"
-categories: Spring-Boot
+categories: Javascript
 ---
 
 Spring-Boot是一个基于Spring的开源应用框架，基于开箱即用和约定优于配置的理念，其目的是用来简化Spring应用的初始搭建、开发、测试以及部署过程。本文介绍了快速新建和配置Spring-Boot工程的过程，在新工程中添加对外提供服务的API，并且通过 Postman对API的接口进行连通性测试。
