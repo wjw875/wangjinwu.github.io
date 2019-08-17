@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Spring-Boot之快速搭建服务接口"
+title: "Spring-Boot之快速搭建基础服务接口"
 categories: Spring-Boot
 ---
 
